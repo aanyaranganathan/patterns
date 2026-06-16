@@ -1,0 +1,26 @@
+package src;
+
+public class advp2 {
+public static void main(String[] args){
+    for(int i=0;i<8;i++){
+         for(int j=0;j<8;j++){
+            if(i<8/2){
+            if(j<=i||j>=7-i){
+                System.out.print("*");
+            }
+            else{
+                System.out.print(" ");
+            }
+          }
+   else{
+        if(j>=i||j<=7-i){
+             System.out.print("*");
+        }
+        else{
+                System.out.print(" ");
+        }}
+        
+    }System.out.println(" ");
+}}
+}
+
